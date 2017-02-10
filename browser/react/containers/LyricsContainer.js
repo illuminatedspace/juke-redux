@@ -37,7 +37,7 @@ export default class LyricsContainer extends Component {
   }
 
   handleSubmit(){
-    // console.log(this.state);
+    // the sync way to do what's on line 47 w/o Thunk
     // axios.get(`/api/lyrics/${this.state.artistQuery}/${this.state.songQuery}`)
     //   .then(response =>{
     //     const setLyricsAction = setLyrics(response.data.lyric)
