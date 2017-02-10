@@ -53,7 +53,7 @@ export default class LyricsContainer extends Component {
 
     return (
       <Lyrics
-        text={this.state.text}
+        text={this.state.lyric.text}
         setArtist={this.setArtist}
         setSong={this.setSong}
         handleSubmit={this.handleSubmit}
